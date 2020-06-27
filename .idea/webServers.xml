@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bbf3c544-b57c-4286-aa0f-0b392ea998d0" name="bdteam" url="http://bdteam.dev.csm.to">
+        <fileTransfer host="bdteam.dev.csm.to" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a4ab677d-38ea-4849-87b4-28f546e50c35" name="noumaachi" url="http://moumaachi.dev.csm.to">
+        <fileTransfer host="moumaachi.dev.csm.to" port="22" rootFolder="/var/www/vhosts" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9d89a99d-9759-4d26-ace6-d5938cafe026" name="CSM" url="http://web2.prod.csm.to">
+        <fileTransfer host="web2.prod.csm.to" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
