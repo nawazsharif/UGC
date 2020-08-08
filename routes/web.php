@@ -29,6 +29,7 @@ Route::group(['middleware' => ['auth','admin']], function () {
 	Route::get('/university/create-university', 'HomeController@createUniversity')->name('admin.university.create');
 	Route::post('/university/create', 'UniversityController@UniversityCreate')->name('create.university');
 	Route::get('/thesis/thesis-list', 'HomeController@ThesisList')->name('admin.thesis.list');
+
 	Route::post('/thesis/category/create', 'UniversityController@CreateCategory')->name('category.create');
 	Route::get('/university/university-list', 'HomeController@UniversityList')->name('admin.university.list');
 	Route::get('/thesis/category-create', 'HomeController@CreateCategory')->name('admin.category.create');
@@ -40,10 +41,9 @@ Route::group(['middleware' => ['auth','admin']], function () {
 Route::group(['middleware' => ['auth']], function () {
 	Route::get('/home', 'HomeController@index')->name('admin/home');
 	Route::post('/create/thesis', 'UniversityController@CreateThesis')->name('create.thesis');
-	Route::get( '/download/{filename}', 'HomeController@download');
 
 	Route::get('/thesis/create-thesis', 'UniversityController@CreateThesisPage')->name('create.thesis.page');
-	Route::get('/download/{filename}', 'UniversityController@download');
+	Route::get('/download/{filename}/{id}', 'UniversityController@download');
 	Route::get('/thesis/thesislist', 'UniversityController@UserThesisList')->name('user.thesis.list');
 	Route::get('/thesis/department', 'UniversityController@UserDepartmrnt')->name('user.university.dept');
 	Route::post('/thesis/department-create', 'UniversityController@CreateDepartmrnt')->name('create.university.dept');
@@ -53,6 +53,7 @@ Route::group(['middleware' => ['auth']], function () {
 	Route::get('/profile', 'UniversityController@UserProfile')->name('user.profile');
 	Route::get('/setings', 'UniversityController@profileSetings')->name('user.setings');
 	Route::post('upload/uni-logo', 'UniversityController@uploadLogo');
+	Route::get('/delete/{id}', 'HomeController@deleteThesis')->name('thesis.delete');
 });
 Route::get('/university/registration', 'HomeController@UniversityRegistration')->name('university.register');
 Route::post('/university/update', 'HomeController@UpdateUniversity')->name('signup.university');

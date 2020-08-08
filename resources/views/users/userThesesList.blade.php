@@ -36,8 +36,8 @@
                                     <td>{{$thesis->cat_name}}</td>
                                     <td>{{$thesis->dept_name}}</td>
                                     <td>{{$thesis->publish_date}}</td>
-                                    <td>{{$thesis->file}}</td>
-                                    <td>Edit</td>
+                                    <td><a href="{{ url('/download/'.$thesis->file.'/'.$thesis->id)  }}">{{$thesis->file}}</a></td>
+                                    <td><a href="{{ url('/delete/'.$thesis->id)  }}">Delete</a></td>
                                 </tr>
                             @endforeach
 

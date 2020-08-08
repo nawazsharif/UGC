@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afba014b-dc32-49bf-b00a-86b48e36675c" name="Default Changelist" comment="" />
+    <list default="true" id="afba014b-dc32-49bf-b00a-86b48e36675c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UniversityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UniversityController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/topBar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/topBar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/userThesesList.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/userThesesList.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,63 +37,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <leaf>
+      <file pinned="true" current-in-tab="true">
+        <entry file="remoteDeploymentFS://&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/app/Http/Controllers/Front/FrontendController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="61" column="56" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IndexController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="106" lean-forward="true" selection-start-line="10" selection-start-column="106" selection-end-line="10" selection-end-column="106" />
-              <folding>
-                <element signature="e#40#62#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/home.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/users/profile.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="94" column="146" selection-start-line="94" selection-start-column="102" selection-end-line="94" selection-end-column="146" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
-              <folding>
-                <element signature="e#40#64#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/thesis.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
+            <state relative-caret-position="255">
+              <caret line="929" column="15" selection-start-line="929" selection-start-column="15" selection-end-line="929" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -91,36 +51,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thesis/create-thesis</find>
-      <find>CatrgoryList</find>
-      <find>createC</find>
-      <find>CreateThesi</find>
-      <find>/thesis/category-list</find>
-      <find>sess</find>
-      <find>ThesisList</find>
-      <find>CreateThesis</find>
-      <find>getTheseList(</find>
-      <find>/thesis/thesislist</find>
-      <find>thesisLi</find>
-      <find>getTheseList</find>
-      <find>m-0 font-weight-bold text-primary</find>
-      <find>thesisL</find>
-      <find>UniversityList</find>
-      <find>auth</find>
-      <find>users.name</find>
-      <find>university/university-list</find>
-      <find>logo</find>
-      <find>profile</find>
-      <find>UserProfile</find>
-      <find>reg</find>
-      <find>name</find>
-      <find>UpdateUniversity</find>
-      <find>/thesis/thesis-list</find>
-      <find>regis</find>
-      <find>index(</find>
-      <find>genera</find>
-      <find>featured_container</find>
       <find>/thesis-list</find>
+      <find>roles</find>
+      <find>university</find>
+      <find>univer</find>
+      <find>ThesisList</find>
+      <find>thesisL</find>
+      <find>UniversityController</find>
+      <find>thesis-list</find>
+      <find>get</find>
+      <find>download</find>
+      <find>dow</find>
+      <find>down</find>
+      <find>$_SESSION['</find>
+      <find>$_Session</find>
+      <find>$_Se</find>
+      <find>site_phone_number</find>
+      <find>getSiteToken( 'phone' )</find>
+      <find>$_SESSION['site_phone_number']</find>
+      <find>phone</find>
+      <find>check</find>
+      <find>login</find>
+      <find>cart/</find>
+      <find>return $content;</find>
+      <find>car</find>
+      <find>cart(</find>
+      <find>cart</find>
+      <find>alert1`</find>
+      <find>checko</find>
+      <find>aja</find>
+      <find>checkout</find>
     </findStrings>
     <replaceStrings>
       <replace>$content_string.=</replace>
@@ -130,28 +90,16 @@
       <replace>asset('images/font_theme</replace>
       <replace>asset</replace>
       <replace>899</replace>
+      <replace>$_SESSION['site_phone_number']</replace>
+      <replace>$_SESSION['site_phone_number']getSiteToken( 'phone' )</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/widgets/ServiceAreaCittPage.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/widgets/ServiceAreaCityPage.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/jupiter-nawaz/cms.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/functions/pageList.php" />
-        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/jupiter/controllers/AwardsAffiliations.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/jupiter-nawaz/controllers/Report.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/jupiter-nawaz/api/csm/Report.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/jupiter-nawaz/controllers/Auth.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/scripts/city-page-module.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/functions/jobs.php" />
-        <option value="&lt;bbf3c544-b57c-4286-aa0f-0b392ea998d0&gt;/var/www/home-config-nawaz/config/inc/functions/pageFunctions.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/footer.blade.php" />
-        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/restorationrenegades.com/index.php" />
-        <option value="G:/ugc/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/top_head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/top_nav.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/main_layout.blade.php" />
         <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/grateresources.com/inc/functions.php" />
         <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/dealers.saferoom-shelters.com/Views/Main.php" />
         <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/dealers.saferoom-shelters.com/inc/functions.php" />
@@ -169,23 +117,40 @@
         <option value="$PROJECT_DIR$/resources/views/admin/thesis/editCreate.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/thesis/categoryList.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/createThesis.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/university/uniList.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/Admin.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/userLeftBar.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UniversityController.php" />
         <option value="$PROJECT_DIR$/resources/views/users/setings.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/topBar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/profile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/users/home.blade.php" />
         <option value="$PROJECT_DIR$/app/Models/Thesis.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/welcome.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/thesis.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/topBar.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/UniversityController.php" />
+        <option value="$PROJECT_DIR$/resources/views/users/userThesesList.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/resources/views/front/servicepage/index.blade.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/ebtikarprinting.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/elevatedjanitorial.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/empower.lumadynamics.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/ensolum.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/eulesswrecker.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/evanislam.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/ewingair.com/index.php" />
+        <option value="&lt;9d89a99d-9759-4d26-ace6-d5938cafe026&gt;/var/www/vhosts/fag.com.bd/index.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/app/Http/Controllers/User/LoginController.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/resources/views/front/layout.blade.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/resources/views/front/cart.blade.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/app/Http/Middleware/VerifyCsrfToken.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/routes/web.php" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/assets/front/js/main.js" />
+        <option value="&lt;4ab4c6cb-e955-4272-9acf-947fa2b853b0&gt;/public_html/whizz/core/app/Http/Controllers/Front/FrontendController.php" />
       </list>
     </option>
   </component>
@@ -285,12 +250,13 @@
       <path value="$PROJECT_DIR$/vendor/fontawesome-free/css" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1050" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -326,7 +292,7 @@
               <item name="UGC_THESIS" type="b2602c69:ProjectViewProjectNode" />
               <item name="UGC_THESIS" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
+              <item name="Providers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UGC_THESIS" type="b2602c69:ProjectViewProjectNode" />
@@ -345,6 +311,26 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UGC_THESIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGC_THESIS" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="font_layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UGC_THESIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGC_THESIS" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UGC_THESIS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UGC_THESIS" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,17 +430,24 @@
       <workItem from="1593105351593" duration="835000" />
       <workItem from="1593153455057" duration="20430000" />
       <workItem from="1593245764830" duration="15311000" />
+      <workItem from="1596706216699" duration="2446000" />
+      <workItem from="1596721298495" duration="2359000" />
+      <workItem from="1596792469172" duration="3503000" />
+      <workItem from="1596807790885" duration="9289000" />
+      <workItem from="1596832587383" duration="7817000" />
+      <workItem from="1596884153142" duration="7824000" />
+      <workItem from="1596893070905" duration="2060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369266000" />
+    <option name="totallyTimeSpent" value="407892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11744966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -469,16 +462,16 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.24411765" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2470238" />
       <window_info anchor="bottom" id="File Transfer" order="12" weight="0.22321428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" weight="0.24630873" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.3080537" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16442953" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11744966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -493,12 +486,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24411765" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.3735294" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2470238" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.22321428" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.30201343" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.3080537" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
     </layout-to-restore>
   </component>
@@ -517,30 +510,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/plugins/easing/easing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-888">
-          <caret line="49" column="6" lean-forward="true" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/font_theme/news.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/font_layout/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
-          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/elearn/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -677,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminLeftBar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
@@ -764,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UniversityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="199" column="58" selection-start-line="199" selection-start-column="58" selection-end-line="199" selection-end-column="58" />
-          <folding>
-            <element signature="e#40#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/users/setings.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -785,13 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="37" column="60" lean-forward="true" selection-start-line="37" selection-start-column="60" selection-end-line="37" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/topBar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="154" column="117" selection-start-line="154" selection-start-column="117" selection-end-line="154" selection-end-column="117" />
         </state>
       </provider>
     </entry>
@@ -819,27 +764,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/thesis.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="410">
           <caret line="55" column="62" selection-start-line="55" selection-start-column="62" selection-end-line="55" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="61" column="56" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -864,13 +792,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/adminLayout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1416" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/topBar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1657">
+          <caret line="155" column="16" lean-forward="true" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="195" column="29" selection-start-line="195" selection-start-column="29" selection-end-line="195" selection-end-column="29" />
+        <state relative-caret-position="5088">
+          <caret line="222" column="42" selection-start-line="222" selection-start-column="42" selection-end-line="222" selection-end-column="42" />
           <folding>
             <element signature="e#40#64#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UniversityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2256">
+          <caret line="102" column="42" selection-start-line="102" selection-start-column="42" selection-end-line="102" selection-end-column="42" />
+          <folding>
+            <element signature="e#40#64#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/users/userThesesList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/thesis/thesisList.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="105" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/font_layout/thesis.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="77" selection-start-line="16" selection-start-column="77" selection-end-line="16" selection-end-column="77" />
         </state>
       </provider>
     </entry>

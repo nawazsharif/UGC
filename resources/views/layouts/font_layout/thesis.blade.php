@@ -14,7 +14,7 @@
                                                   alt="https://unsplash.com/@anthonytran">
             </div>
             <div class="course_author_name">By <a href="#">{{$thesis->uniName->name}}</a></div>
-            <div class="course_sales ml-auto"><span>352</span> Download</div>
+            <div class="course_sales ml-auto"><span>{{$thesis->download_count}}</span> <a href="{{ url('/download/'.$thesis->file.'/'.$thesis->id)  }}">Download</a></div>
         </div>
     </div>
 </div>

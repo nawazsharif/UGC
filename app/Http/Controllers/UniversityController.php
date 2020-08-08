@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use App\Models\Department;
+use App\Models\Thesis;
 use App\Models\University;
 use App\User;
 use Illuminate\Http\Request;
@@ -90,7 +91,7 @@ class UniversityController extends Controller
 
         return redirect()->back()->with('success', ['your message,here']);
     }
-    public function download( $filename = '' )
+    public function download( $filename = '',$id='' )
     {
 
         $file_path = public_path() . "/images/thesis/" . $filename;
@@ -100,6 +101,7 @@ class UniversityController extends Controller
             'Content-Disposition: attachment; filename='.$filename,
         );
         if ( file_exists( $file_path ) ) {
+        	Thesis::where(['id'=>$id])->increment('download_count', 1);
             // Send Download
             return \Response::download( $file_path, $filename, $headers );
         } else {
@@ -114,14 +116,14 @@ class UniversityController extends Controller
                 ->leftJoin('categories', 'categories.id', '=', 'theses.cat_id')
                 ->leftJoin('users', 'users.id', '=', 'theses.uni_id')
                 ->whereIn('theses.uni_id' ,[$uni_id])
-                ->get(['theses.topic','theses.publish_date','users.name','departments.dept_name','categories.cat_name as cat_name','theses.file']);
+                ->get(['theses.id','theses.topic','theses.publish_date','users.name','departments.dept_name','categories.cat_name as cat_name','theses.file']);
         }
         else{
             $theses_list=DB::table('theses')
                 ->leftJoin('departments', 'departments.id', '=', 'theses.dept_id')
                 ->leftJoin('categories', 'categories.id', '=', 'theses.cat_id')
                 ->leftJoin('universities', 'universities.id', '=', 'theses.uni_id')
-                ->get(['theses.topic','theses.publish_date','universities.name','departments.dept_name','categories.cat_name as cat_name','theses.file']);
+                ->get(['theses.id','theses.topic','theses.publish_date','universities.name','departments.dept_name','categories.cat_name as cat_name','theses.file']);
         }
         return $theses_list;
     }

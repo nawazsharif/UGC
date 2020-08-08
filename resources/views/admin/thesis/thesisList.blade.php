@@ -37,7 +37,7 @@
                                     <td>{{$thesis->dept_name}}</td>
                                     <td>{{$thesis->name}}</td>
                                     <td>{{$thesis->publish_date}}</td>
-                                    <td><a href="{{ url('/download/'.$thesis->file)  }}">{{$thesis->file}}</a></td>
+                                    <td><a href="{{ url('/download/'.$thesis->file.'/'.$thesis->id)  }}">{{$thesis->file}}</a></td>
                                 </tr>
                             @endforeach
 

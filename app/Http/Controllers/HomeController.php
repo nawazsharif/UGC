@@ -228,5 +228,9 @@ class HomeController extends Controller
 			exit( 'Requested file does not exist on our server!' );
 		}
 	}
+	public function deleteThesis($id){
+    	Thesis::where(['id'=>$id])->delete();
+    	return redirect()->back();
+	}
 
 }
